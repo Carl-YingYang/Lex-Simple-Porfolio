@@ -79,9 +79,9 @@ export function Features() {
     <section id="features" className="relative bg-paper py-20 sm:py-28">
       <div className="container-site">
         <SectionHeading
-          overline="Features"
-          title="Legal documents. Made easier to understand."
-          description="From scanning documents to understanding complex legal terms, Lex-Simple brings essential legal-literacy tools into one mobile application."
+          overline="Mga Feature"
+          title="Legal documents. Gawing madaling intindihin."
+          description="Mula sa pag-scan ng mga dokumento hanggang sa pag-intindi ng mga mahihirap na legal terms — nasa iisang mobile app ang mga legal-literacy tools na kailangan mo."
         />
 
         <div className="mt-14 grid gap-5 lg:grid-cols-12">
@@ -95,9 +95,9 @@ export function Features() {
                     Smart Document Scanning
                   </h3>
                   <p className="mt-2 text-sm leading-relaxed text-subtext">
-                    Capture legal documents using your camera or upload images
-                    from your gallery. Process multiple pages through the
-                    document-scanning workflow.
+                    Kumuha ng litrato ng mga legal documents gamit ang camera
+                    mo, o mag-upload ng images mula sa gallery. Suportado ang
+                    maraming pahina sa isang document-scanning workflow.
                   </p>
                 </div>
 
@@ -143,7 +143,7 @@ export function Features() {
                       <Plus className="size-4" />
                     </span>
                     <span className="ml-1 font-mono text-[9px] font-bold uppercase tracking-[0.18em] text-[#8994A6]">
-                      Multi-page
+                      Maraming pahina
                     </span>
                   </div>
                 </div>
@@ -159,8 +159,9 @@ export function Features() {
                 OCR-Powered Text Extraction
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-subtext">
-                Extract readable text from document images using on-device OCR
-                technology.
+                Kinukuha ang readable text mula sa mga document images gamit
+                ang on-device OCR technology — walang kailangang internet
+                para dito.
               </p>
 
               {/* Visual — scan-to-text pipeline */}
@@ -183,7 +184,7 @@ export function Features() {
                 <div className="card-neo w-full p-3">
                   <div className="flex items-center justify-between gap-2">
                     <span className="font-mono text-[10px] font-bold uppercase tracking-[0.18em] text-subtext">
-                      Extracted text
+                      Nakuha na text
                     </span>
                     <span className="chip-neo px-1.5 py-0.5 text-[10px] uppercase">
                       <Cpu className="size-3" />
@@ -217,15 +218,16 @@ export function Features() {
                     Clause Complexity Highlighting
                   </h3>
                   <p className="mt-2 max-w-md text-sm leading-relaxed text-subtext">
-                    Review document analysis results, complexity scores,
-                    summaries, and clauses that may require closer attention.
+                    I-review ang analysis results, complexity scores, mga buod,
+                    at mga clause na baka kailangan ng mas malapit na
+                    pagtingin.
                   </p>
                   <div className="mt-4 flex gap-2.5 rounded-md border-[1.5px] border-ink bg-brand-soft/60 p-3">
                     <Info aria-hidden className="mt-0.5 size-4 shrink-0 text-brand-deep" />
                     <p className="text-xs font-medium leading-relaxed text-brand-deep">
-                      Findings are informational — they highlight what deserves
-                      a closer look and are not definitive legal judgments or
-                      guarantees.
+                      Impormasyon lang ang mga findings — ginagabayan ka kung
+                      alin ang dapat tingnan nang masusi; hindi ito final na
+                      legal na hatol o garantisya.
                     </p>
                   </div>
                 </div>
@@ -238,7 +240,7 @@ export function Features() {
                   <div className="p-4 pb-3">
                     <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1.5">
                       <span className="font-mono text-[10px] font-bold uppercase tracking-[0.18em] text-subtext">
-                        Analysis preview
+                        Preview ng analysis
                       </span>
                       <span className="rounded-[3px] border-[1.5px] border-ink bg-brand-soft px-1.5 py-0.5 font-mono text-[10px] font-bold text-brand-deep">
                         Complexity 62/100
@@ -282,9 +284,9 @@ export function Features() {
                 Filipino AI Simplification
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-subtext">
-                Understand difficult legal language through simpler Filipino
-                and Taglish explanations, document summaries, and contextual
-                questions.
+                Intindihin ang mga mahihirap na legal language gamit ang mas
+                simpleng Filipino at Taglish — may document summaries at
+                contextual na mga tanong pa.
               </p>
 
               {/* Visual — before/after translation */}
@@ -325,11 +327,12 @@ export function Features() {
             <article className="card-neo lift-neo h-full p-6">
               <FeatureBadge number="05" tone="ink" />
               <h3 className="mt-4 text-xl font-extrabold tracking-tight text-ink">
-                Legal Dictionary and Document History
+                Legal Dictionary at Document History
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-subtext">
-                Explore legal terminology and access saved document scans and
-                available offline resources.
+                I-explore ang mga legal terms at balikan ang mga na-save mong
+                document scans — may mga resources pa na available kahit
+                offline.
               </p>
 
               {/* Visual — dictionary entry + saved scans */}
@@ -339,7 +342,7 @@ export function Features() {
                   <div className="flex h-8 items-center gap-2 rounded-[4px] border-[1.5px] border-ink bg-white px-2.5">
                     <Search className="size-3.5 text-subtext" />
                     <span className="text-xs text-subtext">
-                      Search legal terms…
+                      Maghanap ng legal terms…
                     </span>
                   </div>
                   <div className="mt-4">
@@ -350,9 +353,10 @@ export function Features() {
                       Force Majeure
                     </p>
                     <p className="mt-1 text-xs leading-relaxed text-subtext">
-                      Unexpected events outside one&apos;s control — storms,
-                      earthquakes, floods — that may excuse contractual
-                      obligations.
+                      Mga hindi inaasahang pangyayari na labas sa kontrol ng
+                      tao — bagyo, lindol, baha — na maaaring magbigay ng
+                      dahilan para hindi matupad ang mga obligasyon sa
+                      kontrata.
                     </p>
                     <span className="chip-neo mt-3 px-1.5 py-0.5 text-[10px] uppercase">
                       <WifiOff className="size-3" />
@@ -364,7 +368,7 @@ export function Features() {
                 {/* Document history */}
                 <div aria-hidden>
                   <span className="font-mono text-[10px] font-bold uppercase tracking-[0.18em] text-subtext">
-                    Document history
+                    Mga na-save na scans
                   </span>
                   <ul className="mt-2 divide-y divide-hairline rounded-[4px] border-[1.5px] border-ink bg-white">
                     {HISTORY_ROWS.map((row) => (

@@ -19,24 +19,24 @@ interface Step {
 const STEPS: Step[] = [
   {
     number: "1",
-    label: "Step 01",
+    label: "Hakbang 01",
     icon: Camera,
-    title: "Scan or Upload",
-    copy: "Capture a document using your camera or select an existing image.",
+    title: "I-scan o I-upload",
+    copy: "Kumuha ng litrato ng dokumento gamit ang camera, o pumili ng existing image mula sa gallery mo.",
   },
   {
     number: "2",
-    label: "Step 02",
+    label: "Hakbang 02",
     icon: ScanText,
-    title: "Extract and Analyze",
-    copy: "OCR extracts the document text, which can then be used for AI-assisted document analysis.",
+    title: "I-extract at I-analyze",
+    copy: "Kinukuha ng OCR ang text ng dokumento, na gagamitin naman para sa AI-assisted document analysis.",
   },
   {
     number: "3",
-    label: "Step 03",
+    label: "Hakbang 03",
     icon: MessageCircle,
-    title: "Understand and Ask",
-    copy: "Review the document summary, highlighted clauses, and explanations. Ask Lexie questions when you need additional clarification.",
+    title: "Intindihin at Magtanong",
+    copy: "Basahin ang buod ng dokumento, mga naka-highlight na clauses, at mga paliwanag. Kung may gusto kang linawin pa, tanungin mo si Lexie.",
   },
 ];
 
@@ -61,8 +61,8 @@ export function HowItWorks() {
       <div className="container-site relative">
         <SectionHeading
           dark
-          overline="How It Works"
-          title="Three simple steps to better understand your documents."
+          overline="Paano Gumagana"
+          title="Tatlong simpleng hakbang para mas maintindihan ang mga documents mo."
         />
 
         <div className="relative mt-14">

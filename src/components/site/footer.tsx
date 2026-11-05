@@ -9,12 +9,12 @@ const footerLinkClass = "text-sm text-white/65 transition-colors hover:text-whit
 /** App-related destinations — the download link only goes external once a real APK URL exists. */
 const APP_LINKS: { label: string; href: string; external: boolean }[] = [
   {
-    label: "Download App",
+    label: "I-download ang App",
     href: APP_DOWNLOAD_URL ?? "#download",
     external: Boolean(APP_DOWNLOAD_URL),
   },
-  { label: "App Showcase", href: "#showcase", external: false },
-  { label: "Lex-Simple on GitHub", href: SITE.repoUrl, external: true },
+  { label: "Silip sa App", href: "#showcase", external: false },
+  { label: "Lex-Simple sa GitHub", href: SITE.repoUrl, external: true },
 ];
 
 /**
@@ -52,9 +52,9 @@ export function Footer() {
               </span>
             </div>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-white/60">
-              A mobile legal-literacy companion that helps you scan documents,
-              understand complex clauses in simpler Filipino, and ask questions
-              — anytime.
+              Ang mobile legal-literacy buddy na tutulong sa iyo mag-scan ng
+              documents, intindihin ang mga kumplikadong clauses sa mas
+              simpleng Filipino, at magtanong — kahit kailan.
             </p>
             <a
               href={SITE.repoUrl}
@@ -70,7 +70,7 @@ export function Footer() {
           {/* Explore */}
           <nav aria-label="Explore">
             <h3 className="font-mono text-[11px] font-bold uppercase tracking-[0.2em] text-brand-light">
-              Explore
+              I-explore
             </h3>
             <ul className="mt-4 flex flex-col gap-2.5">
               {NAV_LINKS.map((link) => (
@@ -114,6 +114,7 @@ export function Footer() {
             </h3>
           </div>
           <p className="mt-2.5 text-xs leading-relaxed text-white/50">
+            <span className="font-semibold text-white/70">Paalala: </span>
             {SITE.legalDisclaimer}
           </p>
         </div>
@@ -121,10 +122,10 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-10 flex flex-col items-start justify-between gap-3 border-t border-white/15 pt-6 sm:flex-row sm:items-center">
           <p className="text-xs text-white/45">
-            © {year} Lex-Simple. All rights reserved.
+            © {year} Lex-Simple. Nakalaan ang lahat ng karapatan.
           </p>
           <p className="font-mono text-[10px] font-bold uppercase tracking-[0.22em] text-brand-light">
-            Legal literacy, made simpler
+            Legal literacy, gawing simple
           </p>
         </div>
       </div>

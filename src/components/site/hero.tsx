@@ -6,9 +6,9 @@ import { Reveal } from "./reveal";
 import { DownloadButton } from "./download-button";
 
 const HERO_POINTS = [
-  { icon: ScanLine, label: "OCR-Powered Document Scanning" },
-  { icon: Languages, label: "Filipino AI Simplification" },
-  { icon: BookOpen, label: "Legal Term Dictionary" },
+  { icon: ScanLine, label: "OCR Document Scanning" },
+  { icon: Languages, label: "Simpleng paliwanag sa Filipino" },
+  { icon: BookOpen, label: "Legal Dictionary" },
 ] as const;
 
 /**
@@ -40,14 +40,14 @@ export function Hero() {
             <span className="chip-neo">
               <span aria-hidden className="inline-block size-2 rounded-[1.5px] bg-brand" />
               <span className="font-mono text-[11px] font-bold uppercase tracking-[0.2em] text-brand-deep">
-                Legal literacy, made simpler
+                Legal literacy, gawing simple
               </span>
             </span>
           </Reveal>
 
           <Reveal delay={90}>
             <h1 className="mt-6 text-balance text-4xl font-extrabold leading-[1.05] tracking-tight text-ink sm:text-5xl xl:text-[3.6rem]">
-              Understand the{" "}
+              Intindihin ang{" "}
               <span className="relative inline-block whitespace-nowrap">
                 <span
                   aria-hidden
@@ -56,23 +56,24 @@ export function Hero() {
                 <span className="relative">fine print.</span>
               </span>{" "}
               <br className="hidden sm:block" />
-              <span className="text-brand">Before you sign.</span>
+              <span className="text-brand">Bago ka pumirma.</span>
             </h1>
           </Reveal>
 
           <Reveal delay={180}>
             <p className="mt-6 max-w-xl text-pretty text-base leading-relaxed text-subtext sm:text-lg">
-              Lex-Simple helps you understand complex legal documents through
-              OCR-assisted text extraction, AI-powered explanations, and a
-              conversational Filipino legal assistant.
+              Tutulungan ka ng Lex-Simple na intindihin ang mga kumplikadong
+              legal documents — may OCR text extraction, AI-powered
+              explanations, at kausap mong si Lexie na nagpapaliwanag sa
+              simpleng Filipino at Taglish.
             </p>
           </Reveal>
 
           <Reveal delay={260}>
             <div className="mt-8 flex flex-wrap items-center gap-4">
-              <DownloadButton label="Download the App" size="lg" />
+              <DownloadButton label="I-download ang App" size="lg" />
               <a href="#features" className="btn-brutal btn-brutal-outline btn-brutal-lg">
-                Explore Features
+                Tingnan ang Features
                 <ArrowRight aria-hidden className="size-4" />
               </a>
             </div>
@@ -81,7 +82,7 @@ export function Hero() {
           <Reveal delay={340}>
             <p className="mt-5 flex items-center gap-1.5 text-xs text-subtext">
               <Info aria-hidden className="size-3.5 shrink-0" />
-              Informational tool — not a substitute for professional legal advice.
+              Impormasyon lang ito — hindi kapalit ng propesyonal na legal advice.
             </p>
           </Reveal>
 
@@ -132,7 +133,7 @@ export function Hero() {
                     <FileText aria-hidden className="size-3" />
                   </span>
                   <span className="font-mono text-[9px] font-bold uppercase tracking-[0.18em] text-subtext">
-                    Analysis
+                    AI Buod
                   </span>
                 </div>
                 <p className="mt-2 truncate text-xs font-bold text-ink">
@@ -195,7 +196,7 @@ export function Hero() {
         aria-hidden
         className="pointer-events-none absolute inset-x-0 bottom-5 hidden flex-col items-center gap-1 text-subtext lg:flex"
       >
-        <span className="font-mono text-[10px] font-bold uppercase tracking-[0.3em]">Scroll</span>
+        <span className="font-mono text-[10px] font-bold uppercase tracking-[0.3em]">Scroll pababa</span>
         <ChevronDown aria-hidden className="anim-float-soft size-4 text-brand" />
       </div>
     </section>

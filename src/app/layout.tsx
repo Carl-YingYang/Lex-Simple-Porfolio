@@ -27,6 +27,9 @@ export const metadata: Metadata = {
     "legal dictionary",
     "document simplification",
     "contract checker",
+    "legal literacy app Pilipinas",
+    "paano intindihin ang kontrata",
+    "legal na app para sa Pilipino",
   ],
   authors: [{ name: "Lex-Simple Team" }],
   openGraph: {
@@ -54,7 +57,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="fil-PH" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} bg-paper font-sans text-ink antialiased`}
       >

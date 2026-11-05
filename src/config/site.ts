@@ -28,9 +28,9 @@ export const SITE = {
   name: "Lex-Simple",
   shortName: "Lex-Simple",
   /** Primary headline used across metadata. */
-  title: "Lex-Simple — Understand the fine print. Before you sign.",
+  title: "Lex-Simple — Intindihin ang fine print. Bago ka pumirma.",
   description:
-    "Lex-Simple helps you understand complex legal documents through OCR-assisted text extraction, AI-powered explanations, and a conversational Filipino legal assistant.",
+    "Tutulungan ka ng Lex-Simple na intindihin ang mga kumplikadong legal documents — may OCR text extraction, AI-powered explanations sa Filipino at Taglish, at kausap na legal assistant. Legal literacy, gawing simple.",
   /** Official source repository (do not invent other social links). */
   repoUrl: "https://github.com/Carl-YingYang/The-Lex-Simple",
   repoBranchUrl:
@@ -46,8 +46,8 @@ export interface NavLink {
 
 export const NAV_LINKS: NavLink[] = [
   { label: "Home", href: "#home" },
-  { label: "Features", href: "#features" },
-  { label: "How It Works", href: "#how-it-works" },
+  { label: "Mga Feature", href: "#features" },
+  { label: "Paano Gumagana", href: "#how-it-works" },
   { label: "FAQ", href: "#faq" },
 ];
 
@@ -62,36 +62,38 @@ export interface FaqItem {
  * - The legal dictionary and saved scan details are available offline.
  * - AI-powered document analysis and chat need an internet connection.
  * - Lex-Simple never claims to replace professional legal consultation.
+ *
+ * Copy is written in conversational Taglish to match the app's target users.
  */
 export const FAQS: FaqItem[] = [
   {
-    question: "What is Lex-Simple?",
+    question: "Ano ang Lex-Simple?",
     answer:
-      "Lex-Simple is a mobile legal-literacy application that helps users understand complex legal documents through OCR-assisted text extraction, AI-powered simplification, document analysis, and a legal dictionary. It explains difficult legal language in simpler Filipino and Taglish, so you can review contracts, agreements, and other documents with more confidence.",
+      "Ang Lex-Simple ay isang mobile legal-literacy app na tutulong sa iyo na intindihin ang mga kumplikadong legal documents — may OCR-assisted text extraction, AI-powered simplification, document analysis, at legal dictionary. Ipinapaliwanag nito ang mahihirap na legal language sa mas simpleng Filipino at Taglish, para mas may kumpiyansa kang i-review ang mga kontrata, agreements, at iba pang documents.",
   },
   {
-    question: "How does document scanning work?",
+    question: "Paano gumagana ang document scanning?",
     answer:
-      "You can capture document pages using your phone's camera or select existing images from your gallery. Lex-Simple then uses on-device OCR (text recognition) to extract the readable text, so the document can be reviewed and analyzed inside the app. Multi-page documents are supported through the scanning workflow.",
+      "Pwede kang kumuha ng document pages gamit ang camera ng phone mo, o pumili ng existing images mula sa gallery. Gagamitin ng Lex-Simple ang on-device OCR (text recognition) para kunin ang readable text ng dokumento, tapos mare-review at ma-analyze na siya sa app. Suportado rin ang multi-page documents sa scanning workflow.",
   },
   {
-    question: "Does Lex-Simple understand Filipino?",
+    question: "Naiintindihan ba ng Lex-Simple ang Filipino?",
     answer:
-      "Yes. One of Lex-Simple's main goals is legal literacy for Filipino users. The AI assistant explains difficult legal language in simpler Filipino and Taglish, provides document summaries, and answers contextual follow-up questions in a conversational way.",
+      "Oo naman! Isa sa pangunahing layunin ng Lex-Simple ay legal literacy para sa mga Filipino users. Ipinapaliwanag ng AI assistant ang mahihirap na legal language sa mas simpleng Filipino at Taglish, nagbibigay ng document summaries, at sumasagot ng contextual follow-up questions na parang kausap mo lang.",
   },
   {
-    question: "Does the application require an internet connection?",
+    question: "Kailangan ba ng internet connection?",
     answer:
-      "Partially. Some features work offline — on-device OCR text recognition, the available offline legal dictionary, and saved scan details can be used without a connection. AI-powered document analysis and the chat assistant communicate with an online service, so they require internet access.",
+      "Partially lang. May mga features na gumagana kahit walang internet — ang on-device OCR text recognition, ang available na offline legal dictionary, at ang mga saved scan details. Pero ang AI-powered document analysis at ang chat assistant ay kumokonekta sa online service, kaya kailangan nila ng internet access.",
   },
   {
-    question: "Can Lex-Simple replace a lawyer?",
+    question: "Pwede bang mapalitan ng Lex-Simple ang abogado?",
     answer:
-      "No. Lex-Simple is a legal-literacy and informational tool. It is designed to help you understand legal language and spot clauses that may deserve a closer look — not to give definitive legal judgments. For important decisions, always review your original document and consult a qualified legal professional.",
+      "Hindi. Ang Lex-Simple ay isang legal-literacy at informational tool. Dinisenyo ito para tulungan kang intindihin ang legal language at makita ang mga clause na baka kailangan ng mas malapit na pagtingin — hindi para magbigay ng final na legal na hatol. Sa mga mahahalagang desisyon, laging i-review ang original document mo at kumonsulta sa qualified na legal professional.",
   },
   {
-    question: "How do I download and install the application?",
+    question: "Paano ko i-download at i-install ang app?",
     answer:
-      "Lex-Simple is built for Android. Once the official installation package (APK) is published, you will be able to download it directly from this website using the Download App button. After downloading the file on your Android device, open it and follow the installation instructions — depending on your device settings, you may need to allow installation from that source.",
+      "Ang Lex-Simple ay para sa Android. Kapag nailabas na ang opisyal na installation package (APK), pwede mo na itong i-download direkta mula sa website na ito gamit ang I-download ang App button. Pagkatapos i-download ng file sa Android device mo, buksan mo ito at sundan ang installation instructions — depende sa device settings mo, baka kailangan mong i-allow ang installation from that source.",
   },
 ];

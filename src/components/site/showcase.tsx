@@ -26,7 +26,7 @@ const PREVIEWS: ShowcasePreview[] = [
     id: "scanner",
     index: "01 / Scanner",
     title: "Document Scanner",
-    copy: "Capture pages with your camera or import images from your gallery. Multi-page scanning keeps long documents together in one workflow.",
+    copy: "Kumuha ng mga pahina gamit ang camera mo o mag-import ng images mula sa gallery. Multi-page scanning para naka-sama-sama ang mahahabang documents sa isang workflow.",
     dark: true,
     frameClassName: "-rotate-2 lg:translate-y-6",
     shadowClassName: "shadow-brutal-md",
@@ -36,7 +36,7 @@ const PREVIEWS: ShowcasePreview[] = [
     id: "analysis",
     index: "02 / Analysis",
     title: "Analysis Results",
-    copy: "Review the complexity score, an AI-generated summary, and clauses highlighted for closer attention — informational findings, not legal verdicts.",
+    copy: "I-review ang complexity score, AI-generated summary, at mga clause na naka-highlight para sa mas malapitang tingin — impormasyon lang ito, hindi legal na hatol.",
     dark: false,
     frameClassName: "relative z-10 lg:-translate-y-2",
     shadowClassName: "shadow-brutal-xl",
@@ -46,7 +46,7 @@ const PREVIEWS: ShowcasePreview[] = [
     id: "lexie",
     index: "03 / Lexie",
     title: "Lexie Assistant",
-    copy: "Ask follow-up questions in Filipino or Taglish and get clear, conversational explanations from the built-in assistant.",
+    copy: "Magtanong sa Filipino o Taglish at makatanggap ng malinaw at kausap na mga paliwanag mula sa built-in assistant.",
     dark: false,
     frameClassName: "rotate-2 lg:translate-y-6",
     shadowClassName: "shadow-brutal-md",
@@ -70,9 +70,9 @@ export function Showcase() {
 
       <div className="container-site relative">
         <SectionHeading
-          overline="App Showcase"
-          title="Meet your legal-literacy companion."
-          description="A closer look at the core Lex-Simple experience — from capturing documents to conversing with Lexie."
+          overline="Silip sa App"
+          title="Kilalanin ang legal-literacy buddy mo."
+          description="Mas malapitang tingin sa core Lex-Simple experience — mula sa pag-capture ng documents hanggang sa pakikipagkuwentuhan kay Lexie."
         />
 
         {/* Mobile-only carousel hint */}
@@ -82,7 +82,7 @@ export function Showcase() {
         >
           <ChevronLeft className="size-3.5 text-subtext" />
           <span className="font-mono text-[10px] font-semibold uppercase tracking-widest text-subtext">
-            Swipe to explore
+            I-swipe para mag-explore
           </span>
           <ChevronRight className="size-3.5 text-subtext" />
         </div>
@@ -127,8 +127,8 @@ export function Showcase() {
         <p className="mx-auto mt-4 flex max-w-md items-start justify-center gap-1.5 text-center text-xs text-subtext">
           <Info aria-hidden className="mt-0.5 size-3.5 shrink-0" />
           <span>
-            Interface previews are illustrative recreations inspired by the
-            Lex-Simple app — not actual screenshots.
+            Ang mga interface previews ay mga illustrative recreations na
+            inspired by the Lex-Simple app — hindi mga aktwal na screenshots.
           </span>
         </p>
       </div>

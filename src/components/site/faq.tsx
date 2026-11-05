@@ -14,7 +14,7 @@ import { SectionHeading } from "./section-heading";
 /**
  * FAQ section — sticky intro column on the left, neo-brutalist accordion on
  * the right. Questions and answers come verbatim from `FAQS` in the site
- * config (wording is legally reviewed — never paraphrase it here).
+ * config (Taglish copy following the app documentation — keep facts exact).
  */
 export function Faq() {
   return (
@@ -26,8 +26,8 @@ export function Faq() {
             <SectionHeading
               align="left"
               overline="FAQ"
-              title="Frequently asked questions"
-              description="Everything you need to know about Lex-Simple — how it works, what it needs, and what it isn't."
+              title="Mga madalas itanong"
+              description="Lahat ng kailangan mong malaman tungkol sa Lex-Simple — paano ito gumagana, ano ang kailangan nito, at ano ang hindi nito ginagawa."
             />
 
             <Reveal delay={120} className="mt-8">
@@ -36,11 +36,12 @@ export function Faq() {
                   <MessageCircle aria-hidden="true" className="size-4.5" />
                 </span>
                 <p className="mt-3 text-base font-extrabold tracking-tight text-ink">
-                  Still have questions?
+                  May tanong ka pa ba?
                 </p>
                 <p className="mt-1.5 text-sm leading-relaxed text-subtext">
-                  Open the Lexie chat in the bottom-right corner of this page —
-                  she can walk you through the app, downloads, and installation.
+                  Buksan ang Lexie chat sa kanang sulok sa ibaba ng page na
+                  ito — tutulungan ka niya sa app, sa download, at sa
+                  installation.
                 </p>
               </div>
             </Reveal>

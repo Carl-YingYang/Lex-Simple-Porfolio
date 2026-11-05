@@ -19,7 +19,7 @@ interface DownloadButtonProps {
  *   It never links to a nonexistent file.
  */
 export function DownloadButton({
-  label = "Download App",
+  label = "I-download ang App",
   size = "md",
   variant = "primary",
   className,
@@ -49,7 +49,7 @@ export function DownloadButton({
       {label}
       <span className="ml-1 hidden items-center gap-1 rounded-[3px] border border-ink/25 bg-white/20 px-1.5 py-0.5 font-mono text-[10px] font-bold uppercase tracking-wider sm:inline-flex">
         <Clock aria-hidden className="size-3" />
-        Soon
+        Malapit na
       </span>
     </a>
   );

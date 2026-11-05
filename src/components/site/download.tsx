@@ -36,15 +36,15 @@ export function DownloadSection() {
             <span aria-hidden className="inline-block size-2 rounded-[1.5px] bg-brand-light" />
             <span aria-hidden className="inline-block size-2 rounded-[1.5px] bg-white" />
             <span className="font-mono text-xs font-bold uppercase tracking-[0.22em] text-brand-light">
-              Get the app
+              Kunin na ang app
             </span>
           </div>
           <h2 className="mt-4 text-balance text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-            A clearer understanding starts here.
+            Dito nagsisimula ang mas malinaw na pag-intindi.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-pretty text-base leading-relaxed text-white/70 sm:text-lg">
-            Take the first step toward understanding complex legal documents
-            with Lex-Simple.
+            Gawin na ang unang hakbang para intindihin ang mga kumplikadong
+            legal documents gamit ang Lex-Simple.
           </p>
         </Reveal>
 
@@ -70,7 +70,7 @@ export function DownloadSection() {
             </div>
 
             <h3 className="mt-5 text-2xl font-extrabold tracking-tight text-ink">
-              Download Lex-Simple
+              I-download ang Lex-Simple
             </h3>
 
             {APP_DOWNLOAD_URL ? (
@@ -82,10 +82,10 @@ export function DownloadSection() {
                   className="btn-brutal btn-brutal-primary btn-brutal-lg w-full sm:w-auto"
                 >
                   <Download aria-hidden className="size-4" />
-                  Download Lex-Simple
+                  I-download ang Lex-Simple
                 </a>
                 <p className="mt-3 font-mono text-xs text-subtext">
-                  Free Android package (APK) — opens the official release.
+                  Libreng Android package (APK) — magbubukas ng opisyal na release.
                 </p>
               </div>
             ) : (
@@ -94,7 +94,7 @@ export function DownloadSection() {
                 <span className="inline-flex items-center gap-2 rounded-[4px] border-[1.5px] border-ink bg-brand-soft px-3 py-1.5">
                   <Clock aria-hidden className="size-3.5 text-brand-deep" />
                   <span className="font-mono text-[11px] font-bold uppercase tracking-[0.18em] text-brand-deep">
-                    Android download coming soon
+                    Malapit na ang Android download
                   </span>
                 </span>
 
@@ -107,7 +107,7 @@ export function DownloadSection() {
                     className="flex h-12 w-full cursor-not-allowed items-center justify-center gap-2 rounded-[4px] border-2 border-dashed border-ink/40 bg-paper font-semibold text-subtext sm:w-auto sm:px-6"
                   >
                     <Download aria-hidden className="size-4" />
-                    Download Lex-Simple
+                    I-download ang Lex-Simple
                   </button>
                   <a
                     href={SITE.repoUrl}
@@ -116,7 +116,7 @@ export function DownloadSection() {
                     className="btn-brutal btn-brutal-outline btn-brutal-md w-full sm:w-auto"
                   >
                     <Github aria-hidden className="size-4" />
-                    Follow progress on GitHub
+                    Subaybayan sa GitHub
                   </a>
                 </div>
               </div>
@@ -126,8 +126,9 @@ export function DownloadSection() {
             <p className="mt-6 flex items-start gap-1.5 border-t-[1.5px] border-hairline pt-4 text-xs leading-relaxed text-subtext">
               <Info aria-hidden className="mt-0.5 size-3.5 shrink-0" />
               <span>
-                Designed for mobile use. Android download availability will be
-                indicated once the official installation package is published.
+                Para sa mobile na paggamit. I-aannounce dito ang availability
+                ng Android download kapag nailabas na ang opisyal na
+                installation package.
               </span>
             </p>
           </div>

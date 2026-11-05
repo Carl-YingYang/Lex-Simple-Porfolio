@@ -265,7 +265,7 @@ export function LexieWidget() {
             />
             <div>
               <p className="text-sm font-extrabold text-white">Lexie</p>
-              <p className="text-[11px] font-medium text-white/75">Your Lex-Simple guide</p>
+              <p className="text-[11px] font-medium text-white/75">Ang Lex-Simple guide mo</p>
             </div>
             <div className="ml-auto flex items-center gap-1.5 rounded-[4px] border border-white/40 px-2 py-1">
               <span
@@ -319,7 +319,7 @@ export function LexieWidget() {
                   <span className="typing-dot" />
                   <span className="typing-dot" />
                   <span className="typing-dot" />
-                  <span className="sr-only">Lexie is typing</span>
+                  <span className="sr-only">Nag-i-type si Lexie</span>
                 </span>
               </div>
             )}
@@ -348,7 +348,7 @@ export function LexieWidget() {
                 value={input}
                 onChange={(event) => setInput(event.target.value)}
                 aria-label="Message Lexie"
-                placeholder="Type your question…"
+                placeholder="Magtanong kay Lexie…"
                 autoComplete="off"
                 className="h-10 min-w-0 flex-1 rounded-[4px] border-[1.5px] border-ink bg-white px-3 text-[13px] text-ink placeholder:text-subtext/70 focus:outline-none focus:ring-2 focus:ring-brand/60"
               />
@@ -378,7 +378,7 @@ export function LexieWidget() {
             role="status"
             className="anim-pop-in flex items-center gap-2 rounded-md border-[1.5px] border-ink bg-white px-3 py-2 shadow-brutal-sm"
           >
-            <p className="text-xs font-bold text-ink">Need help? Ask Lexie</p>
+            <p className="text-xs font-bold text-ink">Need help? Tanungin si Lexie</p>
             <button
               type="button"
               aria-label="Dismiss"
