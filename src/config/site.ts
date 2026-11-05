@@ -22,7 +22,9 @@
  * become a working link that opens/downloads the file. No other edits needed.
  * ============================================================================
  */
-export const APP_DOWNLOAD_URL: string | null = null;
+
+export const APP_DOWNLOAD_URL: string | null =
+  "https://github.com/Carl-YingYang/The-Lex-Simple/releases/latest/download/Lex-Simple.apk";
 
 export const SITE = {
   name: "Lex-Simple",
